@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 50px;
+    font-family: monospace;
+}
+#logo::before{
+    content: " " ;
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    top: -15px;
+    left: -50px;
+    border: 5px solid white;
+    border-radius: 50%;
+    transform: rotate(-45deg); 
+}
+#logo::after{
+    content: " ";
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    border: 5px solid white;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    top: -15px;
+    left: -50px;
+}
+#wrapper h1{
+    position: absolute;
+    left:110px;
+    color: white;
+    font-size: 2rem;
+}
+#logo{
+    width: 21px;
+    height: 21px;
+    border: 5px solid white;
+    border-radius: 50%;
+    position: absolute;
+    
+    
+}
+#wrapper{
+    padding: 50px;
+    background-color: #02203c;
+    padding-bottom: 70px;
+}
